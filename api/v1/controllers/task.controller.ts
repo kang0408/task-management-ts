@@ -1,4 +1,4 @@
-import Task from "../../../models/task.model";
+import Task from "../models/task.model";
 import { Request, Response } from "express";
 
 export const index = async (req: Request, res: Response) => {
