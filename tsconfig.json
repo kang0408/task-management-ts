@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS", // Sử dụng CommonJS
+    "target": "ES6", // Biên dịch xuống ES6 hoặc thấp hơn (tuỳ ý)
+    "moduleResolution": "node", // Giải quyết module theo Node.js
+    "esModuleInterop": true, // Tương thích với ES Modules
+    "allowSyntheticDefaultImports": true, // Cho phép import mặc định
+    "strict": true, // Bật chế độ kiểm tra nghiêm ngặt
+    "rootDir": "./src", // Thư mục chứa mã nguồn TypeScript
+    "outDir": "./dist", // Thư mục chứa mã biên dịch
+    "skipLibCheck": true, // Bỏ qua kiểm tra kiểu trong các file .d.ts (tăng tốc độ)
+    "forceConsistentCasingInFileNames": true // Đảm bảo thống nhất viết hoa/thường
+  },
+  "include": ["src/**/*.ts"], // Bao gồm các file TypeScript trong src/
+  "exclude": ["node_modules"] // Loại trừ thư mục node_modules
+}
